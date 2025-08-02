@@ -7,7 +7,7 @@ const Component = () => {
 		<div className="component">
 			<h1>My First React Component!</h1>
 			<div>
-				<button onClick={() => setCount((count) => count + 1)}>Counter</button>
+				<button onClick={() => setCount((count) => count + 1)} style={{backgroundColor:'violet'}}>Counter</button>
 				<p>Count: {count}</p>
 			</div>
 		</div>
